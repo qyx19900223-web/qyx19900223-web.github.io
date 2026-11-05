@@ -78,3 +78,20 @@ Name: Rain 通话录音
 Author: Rain
 icon: https://huayuarc.github.io/icon/raincall.png
 
+Package: com.wkk.palmschoolnoads
+Architecture: iphoneos-arm64
+Version: 1.0.0
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 188
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.wkk.palmschoolnoads_1.0.0_iphoneos-arm64.deb
+Size: 11982
+MD5sum: afd56a56c96386f534ea71df06e7539e
+SHA1: eb826a43dd64b3dbad902102eca0506ae4621e5b
+SHA256: 112e6bdb22613e89f9f6427da2252cfdaaa8a80ec555e324cae1fe59e52ad1ed
+SHA512: 4ed7bee9997fec4b658b130a804491fb7469118b7aa5b4024cc3d5f74f1b93edae007a9006d76d204cfe522e643023c70a3e75997b32e4c56b7432f02573af7e
+Description: 去广告
+Name: 掌心智校去广告
+Author: wkk
+
