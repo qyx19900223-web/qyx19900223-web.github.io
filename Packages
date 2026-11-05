@@ -59,6 +59,47 @@ Name: SquidGesturePro(激活码)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: com.iosdump.customcallbg
+Architecture: iphoneos-arm64e
+Version: 0.0.6
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 748
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.customcallbg_0.0.6_iphoneos-arm64e.deb
+Size: 68184
+MD5sum: 4784af231359a04d7d47f5745e477ad8
+SHA1: 05cd856e845e44592d0ddd4c2a83c1d298e96420
+SHA256: 57421c570bcab60d66d05e7b01e2fbed1465e361c226554158b6544ab1962795
+SHA512: d1c6d43592501f2aaf0a2efd8bae59b5d706935693fb35204ecf4344067f4f1025fa5ae61b544bc873d748c88ed348bdeec203359ba266d9d9da001d7962a229
+Description: iOS 14-17 自定义来去电背景插件
+Name: 自定义来去电背景
+Author: iosdump
+icon: https://huayuarc.github.io/icon/CustomCallBg.png
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64e
+Version: 1.3.13.1
+Section: Tweaks
+Maintainer: ichitaso <willfeeltips@gmail.com>
+Installed-Size: 560
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/com.opa334.ccsupport_1.3.13.1_iphoneos-arm64e.deb
+Size: 60416
+MD5sum: 73b72e2cf00d20f3ef6e8953952e5cdc
+SHA1: f35bbcf7b5555481dc2cca0c4e13488144ee65f9
+SHA256: 1ad1d3885d5512383a7482e3d12762f02315c24e2b75847ffeda0346a635c53f
+SHA512: a490564d21821bd5058105f9319822f198fda0a7f4989a1f58b41b3708a75f1dca86bfa74923e1aa94333d22b69b861e29f4b9eee0e03acff5d4954e9ef92b3f
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: https://cydia.ichitaso.com/depiction/ccsupport.html
+SileoDepiction: https://cydia.ichitaso.com/depiction/ccsupport.json
+Icon: https://cydia.ichitaso.com/depiction/ccsupport/icon.png
+
 Package: com.rain.raincall
 Architecture: iphoneos-arm64
 Version: 2.6-2-14
@@ -67,11 +108,11 @@ Maintainer: Rain
 Installed-Size: 2224
 Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
 Filename: debs/com.rain.raincall_2.6-2-14_iphoneos-arm64.deb
-Size: 802958
-MD5sum: 631964e04c5f6c9a671ca6c058bb3262
-SHA1: 3eeac39d2c95d12882870f6b1ac6699de42bfc89
-SHA256: 6d01228fccc31852e44770909df2029e3a042ae8663a4f8e04a77290b7ece782
-SHA512: 7ba3268c17ef66fca352c85ae9daf13b4c8a7b0b6a7b9cf7d0e2b6322a8c5293825ed4e797290b97302628d6567f5a37d4b119ddea55bc6b3576fcea4c8f1b54
+Size: 802248
+MD5sum: 718f28d9435830ba50b71afab3911d48
+SHA1: 4fb38785747a4f2f3f472c68cb5e5b5f5115f812
+SHA256: 178c72060f297987c3a4e5ae7fc1857494bb2a78b30cc5fe9d4a62813bd01ab3
+SHA512: 135bb4cc22a42a0b1aac4a3cbecde8c69f8335af0f1ea9e5b8edd9af10d2c0847323c2a9c0e98f103f36f502f254ca0f728a963a95aa99e4a8e145568e1820b6
 Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。
 Tag: role::hacker, purpose::extension
 Name: Rain 通话录音
