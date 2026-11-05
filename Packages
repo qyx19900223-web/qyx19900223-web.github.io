@@ -40,6 +40,25 @@ Name: Rain 通话录音
 Author: Rain
 icon: https://huayuarc.github.io/icon/raincall.png
 
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64
+Version: 2.7.6-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6620
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64.deb
+Size: 1769084
+MD5sum: 052d5080e630b1dcfdfec22648dfc154
+SHA1: de19c9317248c3e83710f7d4697b7d32080b7557
+SHA256: 783eadb006f533a3b0fe382adca5207907f71334150ba19a2e395e82d08702be
+SHA512: ffb41ec08e87a1a7d69a22ee38f1d2239f3fb78cf32a0ccec61c20dca9b12037d11d22aaada8157a50de91b468d30c1d7037e061f088a767776c2754b0655b2c
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+
 Package: com.rain.raincall
 Architecture: iphoneos-arm64
 Version: 2.6-2-14
