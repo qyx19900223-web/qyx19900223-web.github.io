@@ -1,3 +1,45 @@
+Package: com.senseTechLab.duodash
+Architecture: iphoneos-arm64
+Version: 1.1.3
+Section: Tweaks
+Maintainer: SenseTechLab
+Installed-Size: 2996
+Provides: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 14.0), preferenceloader
+Conflicts: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Replaces: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge
+Filename: debs/DuoDash_车机互联-1.1.3-iphoneos-arm64.deb
+Size: 946432
+MD5sum: 213ab41cad72b0963f6788fade08faef
+SHA1: 01372c2bb9371d428bc1ab97fad0c07ed043b75e
+SHA256: 8d351ce5bdd357168aafce88acc5e51691fdc602ef95158c3e5516eff2ffcd81
+SHA512: d835064a85e420c3eee254c0b100d3322bb080d14af28d214bc1cfc5dc4f6a52882d82ac4f4a54c9d111a7c2b321ac12a545531a398552efa9649a2df529ae2b
+Description: DuoDash 将你的 CarPlay 屏幕变成一个可自定义的多应用仪表盘，支持将屏幕分割为最多 3 个独立面板，每个面板运行不同应用，并提供 8 种灵活的屏幕布局方案。专为宽屏/竖屏车载显示设计，打造真正的多任务仪表盘，而非简单的手机界面镜像，建议使用 有线 CarPlay。
+Tag: compatible_min::ios14.0
+Name: DuoDash 车机互联
+Author: SenseTechLab
+Sponsor: SenseTechLab
+icon: https://huayuarc.github.io/icon/DuoDash.jpg
+
+Package: com.rain.raincall
+Architecture: iphoneos-arm64
+Version: 2.6-2-14
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 2224
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/Rain_通话录音-2.6-2-14-iphoneos-arm64.deb
+Size: 328372
+MD5sum: a6acb53ed450a61c4b75d4a850b20e03
+SHA1: c3fbe5c9462044f8c3c9791490848a6bcf629812
+SHA256: 648c1ba992be9847c0cf823b2e777708b12af73cccaa51acccb5b064857ad78c
+SHA512: 1d8c35d35ecaae270a5834c255b49c05022a139bf649d85849e4f91319dddc98af92074cd2e2a39b7f50627f54a4866f7f3e4c7d43d64c2e6207795cc83ab3a2
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。
+Tag: role::hacker, purpose::extension
+Name: Rain 通话录音
+Author: Rain
+icon: https://huayuarc.github.io/icon/raincall.png
+
 Package: com.rain.raincall
 Architecture: iphoneos-arm64
 Version: 2.6-2-14
