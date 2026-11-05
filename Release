@@ -1,0 +1,16 @@
+Origin: vincent
+Label: vincent
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: vincent
+Support: https://qyx19900223-web.github.io/
+Icon: https://qyx19900223-web.github.io/CydiaIcon.png
+MD5Sum:
+ a13d70f92bf482849a9eeaf532293586  1056 Packages
+ 43e946569be6cab7005d457a8c4671b0  785 Packages.gz
+SHA256:
+ 4d4338b38c98d42a52d0cff8e1dcc78f6388ce8c022fa9e109a7aea4fdd2adf4  1056 Packages
+ 4e0341e18e155aadfb1d250b90381f131833c443c9d2506989257aebd560bb2d  785 Packages.gz

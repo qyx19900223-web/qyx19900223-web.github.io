@@ -1,0 +1,19 @@
+Package: com.rain.raincall
+Architecture: iphoneos-arm64
+Version: 2.6-2-14
+Section: Tweaks
+Maintainer: Rain
+Installed-Size: 2224
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Filename: debs/com.rain.raincall_2.6-2-14_iphoneos-arm64.deb
+Size: 802958
+MD5sum: 631964e04c5f6c9a671ca6c058bb3262
+SHA1: 3eeac39d2c95d12882870f6b1ac6699de42bfc89
+SHA256: 6d01228fccc31852e44770909df2029e3a042ae8663a4f8e04a77290b7ece782
+SHA512: 7ba3268c17ef66fca352c85ae9daf13b4c8a7b0b6a7b9cf7d0e2b6322a8c5293825ed4e797290b97302628d6567f5a37d4b119ddea55bc6b3576fcea4c8f1b54
+Description: Rain的通话录音插件 - 支持蜂窝通话和 VoIP 通话录音，通过 ATAudioTap 实现通话录音，支持微信/QQ/钉钉/Telegram/Line/FaceTime VoIP 通话录音，支持自动录音、混音合并、AI 分析、通话字幕、关键词高亮、双语字幕、日历集成、自动分类、质量监控、通话后复盘、通话时光机。
+Tag: role::hacker, purpose::extension
+Name: Rain 通话录音
+Author: Rain
+icon: https://huayuarc.github.io/icon/raincall.png
+
