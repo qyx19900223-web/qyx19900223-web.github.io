@@ -59,6 +59,27 @@ Name: SquidGesturePro(激活码)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: com.be-huge.wechat-push-msg-pages
+Architecture: iphoneos-arm64e
+Version: 0.0.5
+Section: 微信插件
+Maintainer: be-huge
+Installed-Size: 232
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Conflicts: com.be-huge.wechat-push-msg-page
+Filename: debs/com.be-huge.wechat-push-msg-pages_0.0.5_iphoneos-arm64e.deb
+Size: 32394
+MD5sum: f32f84829669b91942a0c3d08b9de2aa
+SHA1: 51d5cc23748c7818cbb0e087f0ea1019517d08c6
+SHA256: 1340c5c58730796abea44770ea22188c34777133b93b1891e535a53cbc6e77c8
+SHA512: 361a578badb93c767d748d7e7e9a28c31b27391df5d826f024683b5f813a02f97a04acfd612e54e7202b5af76583110eebe910b75ddc0d1b439f372b6f669e46
+Description: 弥补微信通知不足，支持点击微信消息通知横幅，跳转到对应的窗口
+Name: 微信推送直达聊天窗口
+Author: be-huge
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/js.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/icon.png
+
 Package: com.iosdump.customcallbg
 Architecture: iphoneos-arm64e
 Version: 0.0.6
