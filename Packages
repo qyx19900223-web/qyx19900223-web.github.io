@@ -287,6 +287,27 @@ Author: be-huge
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/icon.png
 
+Package: com.creaturecoding.libcspreferences
+Architecture: iphoneos-arm64e
+Version: 1.5.8
+Section: System
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 2332
+Pre-Depends: rootless-compat (>= 0.9), firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate
+Filename: debs/com.creaturecoding.libcspreferences_1.5.8_iphoneos-arm64e.deb
+Size: 1340946
+MD5sum: f29f5a19474798f78d5106d831f30178
+SHA1: ee2eae5aa75a47df950d16245b21c690c0bfede0
+SHA256: 49041221bf37a67414726fcaadf3d40c4ffd0575af187c19101fef68f5786968
+SHA512: e7703890616713d4d4a68c2c2a01aa10786e75998c7bcac3ad8b46ed7c5857485629f26d1cd348ee943aed5b3f7ba3519e4d4a959d1226da3b1299e58674ea1e
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iOS9
+Name: libCSPreferences
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+SileoDepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
 Package: com.curtin.pkc.rootless
 Architecture: iphoneos-arm64e
 Version: 0.9-8
@@ -323,6 +344,28 @@ SHA512: dbf808eb8f7977d3fd28483133afa73f6bfe646ccab645f15c6f326644da65adfa1b3d62
 Description: Airaw Controls weather widget source build
 Name: WeatherWidget
 Author: Custom
+
+Package: com.cydia.love.ytlite-rootless
+Architecture: iphoneos-arm64e
+Version: 5.2b1
+Section: 应用插件
+Maintainer: Ant 蚂蚁源™ <admin@cydia.pro>
+Installed-Size: 16124
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Conflicts: com.dvntm.ytlite
+Filename: debs/com.cydia.love.ytlite-rootless_5.2b1_iphoneos-arm64e.deb
+Size: 17562654
+MD5sum: db84d04811b49dd823fe326a7e4d286c
+SHA1: 74e2c7a27242902f2611d86f39122f7fa9630f44
+SHA256: bea395b4d936b5064adc61a5ba58929c5897eff2f01c2d04cbc9cb1c908fa3af
+SHA512: 201f43956967445308f11c79b3f69d17762a53d83ceee08648dd08d0bbacb9911bd2110ac7b1b4f8e16bebeee6840a3c52c6fb70a24445f527a4b0cfbb2cf9ac
+Description: 轻量级YouTube功能插件，去广告、后台播放、隐藏投射/通知/搜索、调节播放器等超多功能，已汉化。插件选项位于油管“设置—YTLite”，更多功能请启用“YTLite—版本—高级模式”。
+Tag: 1
+Name: YouTube增强
+Author: dvntm
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.pro/>
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 
 Package: com.cydiabc.april-rootless
 Architecture: iphoneos-arm64e
@@ -419,6 +462,22 @@ SHA512: e77880334aeb1f46c7973ffbe8428209120d93aab2a6d663d41d0171f6facf49c370c15a
 Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
 Name: 黄白助手(微信插件)-Rootless
 Author: HuangBai <QQ:1343309363@qq.com>
+
+Package: com.huami.wcpulse
+Architecture: iphoneos-arm64e
+Version: 1.7-4
+Section: Tweaks
+Maintainer: huami
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.huami.wcpulse_1.7-4_iphoneos-arm64e.deb
+Size: 5430546
+MD5sum: ddd3ac4f898efe0a2fc7adb32032d906
+SHA1: 297385b0fc356c1be24877b05e2efd1211d2d899
+SHA256: eca3408e4409381ea6b95a2154a11cd13639cb99ecd62e6a6336a63f90254f86
+SHA512: b6b13793ca3ad57baa90a494c31b51fec37b85db33dff70b86a01f9435a40fe4b3f94fa83e542af6fc639d4ef358a2fc1e32fd22d89a76c7cb8d00341293e8e2
+Description: WCPulse
+Name: WCPulse
+Author: huami
 
 Package: com.huayuarc.manager
 Architecture: iphoneos-arm64e
