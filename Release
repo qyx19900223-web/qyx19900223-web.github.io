@@ -9,8 +9,8 @@ Description: vincent
 Support: https://qyx19900223-web.github.io/
 Icon: https://qyx19900223-web.github.io/CydiaIcon.png
 MD5Sum:
- 1d0aa73e4d419bbdab4e69835d188392  71502 Packages
- ade69b8a06ead12878fb6ea9f2512696  27165 Packages.gz
+ abd215368ac1d62c6e164e53d8860fd6  109090 Packages
+ c51d09fa10d4f0e05531a49910cd7e7c  44320 Packages.gz
 SHA256:
- b7df48683fddac6f23f74ccbaabb69b4de4fecb5624410e95aba873840b40b93  71502 Packages
- 02d0ab30adda487aa13f76aa51eca0679a93e88979e655a7c4d219ac452c0339  27165 Packages.gz
+ 89baa7f2d3b1640fbfde9572420acdb48a4ab8b6e03c3eb5299cfc124abac9da  109090 Packages
+ c7a1c714ede106a83cba829a1770514f598c763456bb0cbe4149fb83a26226c4  44320 Packages.gz
