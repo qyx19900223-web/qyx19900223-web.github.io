@@ -228,6 +228,26 @@ Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
 Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
+Package: com.axs.screencore
+Architecture: iphoneos-arm64e
+Version: 1.0.6-1
+Section: 分屏插件
+Maintainer: 王云龙
+Installed-Size: 2476
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.altlist
+Filename: debs/com.axs.screencore_1.0.6-1_iphoneos-arm64e.deb
+Size: 1354778
+MD5sum: 0d3772857b9f570f64029626cd818a8e
+SHA1: 8a5d96804c15f08f23a9f5a31ac227ea47205acf
+SHA256: d95601fbaaafe7e72865f9e6ef8a97f056d8a8e6bb91ec0d9309538258a9acd9
+SHA512: a595b64e1bdd5ecd9bf9db200a519f56da2b0178006e503a3e7592b97af165289029c39a27342521dae497c44289037e926d05e2a3c1cf13afae3379f9256ca8
+Description: 这是王云龙抄袭的分屏
+Name: ScreenCore
+Author: 王云龙
+Icon: https://axs66.github.io/pro/icon/screencore.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/screencore/js.json
+
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
 Version: 0.1.38.1
@@ -266,6 +286,69 @@ Name: 微信推送直达聊天窗口
 Author: be-huge
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/icon.png
+
+Package: com.cydiabc.april-rootless
+Architecture: iphoneos-arm64e
+Version: 3.1
+Section: 无根插件
+Maintainer: Luki
+Installed-Size: 832
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal
+Conflicts: com.midnightchips.bettersettings, me.luki.april, com.hk.april, com.qms.april
+Filename: debs/com.cydiabc.april-rootless_3.1_iphoneos-arm64e.deb
+Size: 821516
+MD5sum: 6fe89636873e4b476c209ee43545c599
+SHA1: 97564b20029190eb99a34c0c03cbcff784049a17
+SHA256: 4f78de3c7d3ba165953788dfb72d2370f787e48a5e4ab7932f09e8b96b853b0b
+SHA512: d689a3f00e8e57da5d27a09ff6a63556fdf0d1bb1bcf29722531e0315f3c875e1441ecaa9877d48199a6b0c74bb19cb42f21f185c63dc63517fcd4e3754c0397
+Description: 可以设定设置App的背景图/模糊等，让设置App变得更好看。
+A12: 1
+Name: April设置美化-Rootless
+Author: Luki
+Sponsor: Luki
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 16.png
+
+Package: com.hang.squidgesturepro-ios17fix
+Architecture: iphoneos-arm64e
+Version: 2.3
+Section: Tweaks
+Maintainer: 航
+Installed-Size: 92
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 17.0)
+Conflicts: com.codex.squidgesture17fix
+Filename: debs/com.hang.squidgesturepro-ios17fix_2.3_iphoneos-arm64e.deb
+Size: 19286
+MD5sum: 8ed630e2edb25da5a71e44d583559148
+SHA1: 2c5ad9664614ed432c800f3a73077de9e714833a
+SHA256: 432136b6ef411c80a9ac85193a13520048e5d00b890cbf493a70602d06bab2e9
+SHA512: 583a81ff5cfc0e0f05ce8690b0063ba588b7733e4c3fe3a4e6a26ee58d8e3a7f466c931c2886b66b454898c508dfc24ba1e80f70e5c0e8c8ba1235b3be783773
+Description: 修复SquidGesturePro在iOS17状态栏不生效与启动快捷指令时导致的安全模式。
+ 不生效就把手势内总开关跟小开关重新开启一下，有问题请卸载。
+Name: 乌贼手势 iOS 17 补丁
+Author: 航
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
+Package: com.huayuarc.manager
+Architecture: iphoneos-arm64e
+Version: 0.0.2
+Section: System
+Maintainer: roothide
+Installed-Size: 1176
+Depends: firmware (>= 15.0)
+Filename: debs/com.huayuarc.manager_0.0.2_iphoneos-arm64e.deb
+Size: 799992
+MD5sum: e5e35c5e5d18fd470bb76919cc5d8b4c
+SHA1: 5bb9b40b9ff5a61bcf705546b7865bd4122f3d99
+SHA256: 89c3cd19901b0e74f72e7a8db3cd18ed35dfefa065f56c39e8d89408d1d57cfa
+SHA512: 041a6636f15933a895c7b62d9c44233d3b93d86bacb647cc2cbacb6d74a1f41f67d16d30e0ea99039ddf5e46c53b421be02dc0c4ed69529978d575ede7a21aca
+Description: Configuare RootHide's Features
+Name: RootHide Manager
+Author: Huayuarc,roothide
+icon: https://huayuarc.github.io/icon/roothide.jpg
+Depiction: https://github.com/roothide/RootHideManagerApp
+Support: https://github.com/roothide/RootHideManagerApp
 
 Package: com.iosdump.customcallbg
 Architecture: iphoneos-arm64e
