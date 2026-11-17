@@ -1256,6 +1256,23 @@ Name: SUMusicWidget
 Author: sugiuta
 
 Package: com.wkk.palmschoolnoads
+Architecture: iphoneos-arm64e
+Version: 1.0-2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.wkk.palmschoolnoads_1.0-2_iphoneos-arm64e.deb
+Size: 16490
+MD5sum: b5cc815757fad374ea02a93846314aec
+SHA1: 6bd337834d7c3149ea119507e68e2269338d0c2a
+SHA256: d44c08ec5692144d7b8e3db6bf380f4493a16e4b05544af9efdbaf55c13a1f9f
+SHA512: ae0d93e320b080023f0076871e13b1d1005a19d3b8bd7d8ac676671e525b9e58dbb9643636eee8ab77e5832a151e83fa92c2967b5275a8539c42181f77b489d4
+Description: 去广告
+Name: 掌心智校去广告
+Author: wkk
+
+Package: com.wkk.palmschoolnoads
 Architecture: iphoneos-arm64
 Version: 1.0.0
 Section: Tweaks
@@ -1286,6 +1303,23 @@ SHA1: d8e55e9f2b869118d6afec04f6e2ea3912bdc959
 SHA256: 021fa1c070a21ccc3e96fb3ed61884f90d41a9074f9a5d28e8842f0a12fc6724
 SHA512: 08701d74f0e3073ae45aa4d439b1d67b3f4a5693195a876349ccab4be058d35b37a7ab63adb4b9a727f6e4b7f4346b628352dc83ce2bbbc94bb6b2143a4986ab
 Description:
+Name: CAD快速看图解锁永久VIP
+Author: XUUᶻ
+
+Package: com.xuuz.cadvip
+Architecture: iphoneos-arm64e
+Version: 0.0.3
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 204
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xuuz.cadvip_0.0.3_iphoneos-arm64e.deb
+Size: 25322
+MD5sum: 2a1b73d7350bc9533ff66d1017fbd737
+SHA1: 98935b69fed2816d31a7d30ec760fef270db358e
+SHA256: 277b5abeb816a949142934574e93497e88e20e5afeecbd8893b8b4664db94875
+SHA512: 585d5b46d89a7d204103103f2c551cc8932d8be083704870e5652a76e6690fd3fefc4559607f01c28d2748b49ada49944cc9fe81a3b5f4027cca2e6235e48c4b
 Name: CAD快速看图解锁永久VIP
 Author: XUUᶻ
 
