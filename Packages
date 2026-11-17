@@ -59,6 +59,51 @@ Name: SquidGesturePro(激活码)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: com.25mao.wcplugins.rootlesss
+Architecture: iphoneos-arm64e
+Version: 0.1-7
+Priority: optional
+Section: 微信插件
+Maintainer: admin@25mao.com
+Provides: com.25mao.wcplugins.rootless
+Depends: firmware (>= 5.0)
+Conflicts: com.25mao.wcplugins.rootless
+Replaces: com.25mao.wcplugins.rootless
+Filename: debs/com.25mao.wcplugins.rootlesss_0.1-7_iphoneos-arm64e.deb
+Size: 20098
+MD5sum: 33682f6dd42d2ab3c13c8758a150fe57
+SHA1: 88ea9509356581b46c0e0b2452608ece5d5e2c08
+SHA256: 67b649ccf999694a5adfbafc57add069ad03c38ab5ed3aa0869c8cb36502fe12
+SHA512: 43af38a9c3a1bc82ff72584fcf39a123c998e987d1f8ad0a38e0648db90691c19da8493c4b3b3571c8c371345a375df242ed413fb136e303547c0cb12e8ad9ea
+Description: 微信插件管理
+ * 收纳第三方微信插件
+ * 位于微信右下角“我”-“插件”
+ * 部分微信插件不支持收纳
+ * 最后更新日期 2026.09.01
+Name: 微信插件管理
+Author: Mao
+Sponsor: admin@25mao.com
+icon: https://TrollStoreX.Github.io/sileodepiction/wcplugins/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/wcplugins/js.json
+
+Package: com.be-huge.insulation
+Architecture: iphoneos-arm64e
+Version: 0.1.38.1
+Section: Tweaks
+Maintainer: doimty
+Installed-Size: 780
+Depends: firmware (>= 15.0)
+Filename: debs/com.be-huge.insulation_0.1.38.1_iphoneos-arm64e.deb
+Size: 74150
+MD5sum: 38858f3271a6920af942e0e6b88a29e6
+SHA1: 471a9297a0b4ba0c0455bff36bf3da0b39801b3e
+SHA256: 1511cf6c519a6d27caa5ae4386fdc591d4db4e5bb3733c50a4ee494f1a7ecdd8
+SHA512: b1eb03dcafc8b2dbd1e51e96ee5c0ba4fb365262f32abb90d1d4c23d4f89b2d10ea340dc3357e0097ff1bd936cc510a6ed039e82c9882a70f81dc43e46a03e00
+Description: 解除温控，一切从简即可。支持命令行切换模式：ins off（原生温控）/ ins low（低功耗）/ ins max（全性能）/ ins status（查看当前模式）
+Name: insulation
+Author: be-huge & doimty
+icon: https://huayuarc.github.io/icon/Insulation.png
+
 Package: com.be-huge.wechat-push-msg-pages
 Architecture: iphoneos-arm64e
 Version: 0.0.5
