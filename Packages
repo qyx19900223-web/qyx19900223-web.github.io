@@ -59,6 +59,26 @@ Author: Hiraku
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.miyou.rootless
+Architecture: iphoneos-arm64e
+Version: 3.9-5
+Priority: optional
+Section: 微信插件
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/byg.iosios.net.miyou.rootless_3.9-5_iphoneos-arm64e.deb
+Size: 15269414
+MD5sum: 8affcd25df86f6811bb1b047f5426bb5
+SHA1: 49e06ec7abe281bdbe33774da1b3e713a362dfb1
+SHA256: 90b0d4cb7b74e5aa5da48ec5316767b47cc6e4f4dac7524f3d24045a515bd377
+SHA512: 91afb22a7800c1b95ba8e1df02072f03bc86efc6f4e2d77d30366b76a3d90e386b3e4166a1b25afb61f1841f613ddff781184327aa7263326ca66aae16474553
+Description: 微信助手-Rootless版。防撤回、微信密友、开启callkit，换主题，转发语音等功能，非常好用，源主力推！十年稳定运行，功能要求不多的用户强烈推荐使用，老牌插件！
+Name: 微信助手
+Author: Mao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.octoforce.squidgesturepro
 Architecture: iphoneos-arm64
 Version: 2.7.6-1
