@@ -40,6 +40,25 @@ Name: Rain 通话录音
 Author: Rain
 icon: https://huayuarc.github.io/icon/raincall.png
 
+Package: byg.iosios.net.ikeywi4
+Architecture: iphoneos-arm64e
+Version: 4.2.1
+Section: 杂七杂八
+Maintainer: 搬运工
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: preferenceloader, mobilesubstrate, firmware (>= 11.0), com.opa334.altlist
+Filename: debs/byg.iosios.net.ikeywi4_4.2.1_iphoneos-arm64e.deb
+Size: 606470
+MD5sum: af0a97827427480bbecef2ed8e53f87f
+SHA1: e5bbb441f34a351d6be2744cee25db01cadaffab
+SHA256: 45305eaf4efeea56f15a6e2febb54c069290c31c859ac740e7f651aeaa8ae980
+SHA512: 6dd0a892f74cf5fc38b5bd36b8028238553d65f08eef048c5fb29a426f56ca34a65f84d1802f4e95baccf4031894849a9f977c0d1d94f80d97f8e45a67766772
+Description: Adding a customizable row of keyboard键盘拓展，详情见插件截图。原价1.99刀，现免费使用！感谢Cypwn！搬运工源，搬你所想！
+Name: iKeywi 4键盘拓展
+Author: Hiraku
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.octoforce.squidgesturepro
 Architecture: iphoneos-arm64
 Version: 2.7.6-1
