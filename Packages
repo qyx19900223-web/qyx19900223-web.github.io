@@ -403,6 +403,23 @@ Name: 乌贼手势 iOS 17 补丁
 Author: 航
 icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
 
+Package: com.hbwechathelper.ailun
+Architecture: iphoneos-arm64e
+Version: 2.1.8
+Section: Mao
+Maintainer: HuangBai <QQ:1343309363@qq.com>
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate
+Filename: debs/com.hbwechathelper.ailun_2.1.8_iphoneos-arm64e.deb
+Size: 19589740
+MD5sum: 4064d6b0c6e9eec8be4adbefe6f9fa30
+SHA1: ab429ae93610bca75505ac5dd623725789ae6c38
+SHA256: c64d83f09217bd7623ecb3cdcaa4b3ce3edb865152614152a4af0fc0d91df9b5
+SHA512: e77880334aeb1f46c7973ffbe8428209120d93aab2a6d663d41d0171f6facf49c370c15a6daa4ad23b37c7f7d1ed4e2cb465c0babcd6afc03c2a5992f6fe03f7
+Description: 黄白助手-微信插件，点歌朋友圈一键点赞，禁用控件，设置布局大小，私聊发抢自己的红包，文本转语音，文案语录，群聊管理，朋友圈保存实况 Live 图，消息防撤回，艾特所有人，朋友圈自定义选取位置，消息双击复读，修改气泡，修改按钮图标，修改显示微信号，自动呼出键盘，微信运动一键点赞，头像转发好友，强制下载 dylib 文件，设置全局圆头像，百变消息小尾巴，朋友圈小尾巴，等诸多功能
+Name: 黄白助手(微信插件)-Rootless
+Author: HuangBai <QQ:1343309363@qq.com>
+
 Package: com.huayuarc.manager
 Architecture: iphoneos-arm64e
 Version: 0.0.2
