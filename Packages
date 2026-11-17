@@ -228,6 +228,27 @@ Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
 Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
 Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
+Package: com.axs.aria
+Architecture: iphoneos-arm64e
+Version: 0.9.8~RC
+Section: 控制中心
+Maintainer: Axs
+Installed-Size: 680
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.axs.aria_0.9.8_RC_iphoneos-arm64e.deb
+Size: 217216
+MD5sum: 55ea2a6a2fb57ce09d4b47e8f5ed3697
+SHA1: a8139b8a1072ac23cd04fa8e5aa9f3aa97d10ede
+SHA256: d87b0593b0c376032cd40eb0923672b3633d5466798dfca73e1aba274b52f6dc
+SHA512: a9f5611c3b3d4cd3b24ef34ab5f7194cbbda2efc5d35de984391bce9c50db56a158bf84affa4af207016d30838168d40c8710dba002eaed987c6e11868de6a96
+Description: 修改控制中心背景图，用第二个Stock就行了
+Name: Aria控制中心背景图
+Author: Luki
+Sponsor: Axs
+Sileodepiction: https://axs66.github.io/repo/sileodepiction/aria/js.json
+Icon: https://axs66.github.io/repo/icon/Aria.png
+
 Package: com.axs.screencore
 Architecture: iphoneos-arm64e
 Version: 1.0.6-1
@@ -286,6 +307,24 @@ Name: 微信推送直达聊天窗口
 Author: be-huge
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/icon.png
+
+Package: com.charlieleung.liquidify
+Architecture: iphoneos-arm64e
+Version: 1.3.7-4+dao88.1
+Section: Tweaks
+Maintainer: 一刀
+Installed-Size: 40597
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.charlieleung.liquidify_1.3.7-4_dao88.1_iphoneos-arm64e.deb
+Size: 33776718
+MD5sum: e9aaff85d1b94a3afc5af019af198484
+SHA1: f0f33db132e0b4564b30dc97c44019bd27cfbf56
+SHA256: 81201aa34d110b7c56e691ec48a06e5e3bad9d85369509e38613aa6ca25e2585
+SHA512: f346297a303d52c8fac8a82de365dcd785156e8295db223d4c60a482cdb06ddc734eec48ddb33ae1b28daeaa394765ab566f25a8e0302b037e270f8ec5b2ed7a
+Description: 液态玻璃
+Name: 88液态玻璃插件 1.3.7-4
+Author: 一刀
 
 Package: com.creaturecoding.libcspreferences
 Architecture: iphoneos-arm64e
