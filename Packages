@@ -1255,6 +1255,44 @@ Description: An awesome Airaw Widgets extension!
 Name: SUMusicWidget
 Author: sugiuta
 
+Package: com.wkk.onesettings
+Architecture: iphoneos-arm64e
+Version: 2.2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 1084
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0), mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal, preferenceloader
+Conflicts: com.shepgoba.settingswidgets, com.creaturecoding.shuffle
+Filename: debs/com.wkk.onesettings_2.2_iphoneos-arm64e.deb
+Size: 654004
+MD5sum: 1abb9e8316f3c3eccd2d7ec2fc8e7935
+SHA1: 3f1d371080e90d8d729248d521e2b5d94c2b0a83
+SHA256: bbfc4acb8c437508f99717a7b2c46ba6b1bcc909a6df0333fb7eceb8dbc5e1ae
+SHA512: 83cdfddd8897874c6bbd7fdf5b3c347169c322ef6efeb1cc92553bca5d79da7d02df1683755c6062d0c5b34d8922ec909ebca09f50c911a5c939e839ee10e543
+Description: 插件归类，已汉化。
+Author: Nightwind
+Name: OneSettings
+Sponsor: wkk
+icon: https://sini921.github.io/repo/sileodepiction/icon/onesett.png
+
+Package: com.wkk.palmschoolnoads
+Architecture: iphoneos-arm64
+Version: 1.0-2
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 204
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.wkk.palmschoolnoads_1.0-2_iphoneos-arm64.deb
+Size: 12846
+MD5sum: 3bf8f7e809233eb292b2e8a8bdecd642
+SHA1: ecb51ccf1c19d7096077b12d55d1c0719df672c3
+SHA256: 6d439843245213df2088f9fde05831fc86db0c5900256e9a2b9c3853af08efd7
+SHA512: 087177ff2a3ddb95ed9cc3cbc42680285abcc6c5b84ef7970eb3566193f1437700ec4874091bbb127b992c06089fd011c04a4ef1c833f66bce54e1017165a9a5
+Description: 去广告
+Name: 掌心智校去广告
+Author: wkk
+
 Package: com.wkk.palmschoolnoads
 Architecture: iphoneos-arm64e
 Version: 1.0-2
@@ -1285,6 +1323,23 @@ MD5sum: afd56a56c96386f534ea71df06e7539e
 SHA1: eb826a43dd64b3dbad902102eca0506ae4621e5b
 SHA256: 112e6bdb22613e89f9f6427da2252cfdaaa8a80ec555e324cae1fe59e52ad1ed
 SHA512: 4ed7bee9997fec4b658b130a804491fb7469118b7aa5b4024cc3d5f74f1b93edae007a9006d76d204cfe522e643023c70a3e75997b32e4c56b7432f02573af7e
+Description: 去广告
+Name: 掌心智校去广告
+Author: wkk
+
+Package: com.wkk.palmschoolnoads
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: wkk
+Installed-Size: 188
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/com.wkk.palmschoolnoads_1.0.0_iphoneos-arm64e.deb
+Size: 11904
+MD5sum: 79f3f210140db515d65fb777d0280438
+SHA1: b217f245ad85c8b568a4bd784ccbcc14b59b09f7
+SHA256: 6103e0f2a637a8b783a99d519345c8ef734aebdda0aa6e6ee3fec63f1dd5fa77
+SHA512: c7e183683956e6aeab554d54c3d40b60f58b11d069b13f772ce54df2e7293890aff81b6e8d6a730d120e3b6948ec5b4f142ccc78e08959343136d47c7ad4d592
 Description: 去广告
 Name: 掌心智校去广告
 Author: wkk
