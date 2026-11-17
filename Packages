@@ -98,6 +98,27 @@ Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
 
+Package: cn.zqbb.jailfoolss
+Architecture: iphoneos-arm64e
+Version: 5.2.3
+Section: Applications
+Maintainer: zqbb
+Installed-Size: 16700
+Depends: firmware (>= 15.0)
+Conflicts: cn.zqbb.jailfools
+Filename: debs/cn.zqbb.jailfoolss_5.2.3_iphoneos-arm64e.deb
+Size: 8601632
+MD5sum: 6551da9827a738c7d572f82df39a9442
+SHA1: 4cafe771557c9ffe51afd2ee27cbe0f2604f21dd
+SHA256: 5e8e6aafb0235a9accd8de4ea55ff2b44d78934238753699ba9c3dcf97722856
+SHA512: 2116cab28537bec9e7f01445cba5928e54ec839ed3ba89a1fc9ee3b7c4a176df67861ad6c155f139938ec03972f8dc700ae68d155dc7d857a5dd49c44188d5ee
+Description: 越狱版 TrollFools 注入工具
+ * 支持将 dylib 注入到应用内
+Name: JailFools 越狱版 TrollFools
+Author: zqbb
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/TrollStore/JailFools.json
+Icon: https://TrollStoreX.Github.io/sileodepiction/TrollStore/JailFools.png
+
 Package: com.25mao.wcplugins.rootlesss
 Architecture: iphoneos-arm64e
 Version: 0.1-7
