@@ -287,6 +287,43 @@ Author: be-huge
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/js.json
 Icon: https://TrollStoreX.Github.io/sileodepiction/WechatPushMsgPage/icon.png
 
+Package: com.curtin.pkc.rootless
+Architecture: iphoneos-arm64e
+Version: 0.9-8
+Priority: optional
+Section: PKC-插件
+Maintainer: curtinlv@126.com
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 5.0)
+Filename: debs/com.curtin.pkc.rootless_0.9-8_iphoneos-arm64e.deb
+Size: 4095014
+MD5sum: 73584ae8bfd163e80e9bd24aef6d1349
+SHA1: 0b1ede91f58df1b56d39592e539d594eec34b3d2
+SHA256: 50eb03d0157d00425fcb69eaf339eaa13206e4d874e24fd78158478dca85acd1
+SHA512: d27b8f88bb63745f7ce8c219162faf807bacc9a8ff6565354dbc883c1a20b9b0c88880acc2d6104d3a78f30150b91b5478f2bf62e82f2138bfd518ee6f990225
+Homepage: https://github.com/curtinlv
+Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI视频生成、群管理Pro、标签Pro、显示群友真名字、群管标识、艾特提醒、动态群昵称、自定义API(图、文本、视频)、消息统计、加密对话、Bark消息推送、定时问候、JD自动签到、好友分析、会话分析、每天60s新闻快报、防撤回、退群监控、步数定时修改、朋友圈特别关注、自动更新微信状态、长头像、消息二次确认、拍一拍二次确认、艾特列表置顶群管理、按群员查找列表置顶群管理、群性别统计、关键词自动回复、转账自动收款、收款自动回复、批量退群、批量修改群昵称、自动通过好友请求、自动互删好友、id加好友、匿名艾特等 【提示: 本项目旨在学习 iOS 逆向的一点实践，不可使用于商业和个人其他意图。若使用不当，均由个人承担。如有侵权，请联系本人删除。】
+Name: PKC_无根
+Author: Curtin
+Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
+
+Package: com.custom.weatherwidget
+Architecture: iphoneos-arm64
+Version: 0.1.0-9+debug
+Section: Tweaks
+Maintainer: Custom
+Installed-Size: 184
+Depends: firmware (>= 14.0)
+Filename: debs/com.custom.weatherwidget_0.1.0-9_debug_iphoneos-arm64.deb
+Size: 16876
+MD5sum: 9223f424635f635c3d7bb6aa71f8c080
+SHA1: 5e9f3b05ae67e365e0da31c63dae494d929af14a
+SHA256: df9400025406bd58736179e651c9c44b48b03f7f0d267832b0e5593a0d86091f
+SHA512: dbf808eb8f7977d3fd28483133afa73f6bfe646ccab645f15c6f326644da65adfa1b3d6216c1f32592c96510ae725e71730186212b47ab19a8d0714ede3f4845
+Description: Airaw Controls weather widget source build
+Name: WeatherWidget
+Author: Custom
+
 Package: com.cydiabc.april-rootless
 Architecture: iphoneos-arm64e
 Version: 3.1
@@ -309,6 +346,42 @@ Author: Luki
 Sponsor: Luki
 Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
 Icon2: 16.png
+
+Package: com.dao.cchide
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: 嗨-工具
+Maintainer: 妖刀
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 17.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless, com.p2kdev.snapper2cc, com.skypain.ccautobrightness, com.skypain.ccscreenshot, com.skypain.cclockscreen, xyz.cypwn.safeccmodules, com.zqbb.ccpay, com.zqbb.qszqb, com.netskao.ccbadgeclear, com.kingpuffdaddi.control-center.ccvpn, com.netskao.cclifttowake, com.kdt.caperfhudmodule, com.kingpuffdaddi.control-center.ccvibration, com.hk.roothide.cc, com.hk.rootless.cc
+Filename: debs/com.dao.cchide_2.1_iphoneos-arm64e.deb
+Size: 618006
+MD5sum: d236ba742f04ccb2932ddb21f4b66728
+SHA1: d2d80385d21c691242eca8768f0f294069f81f91
+SHA256: 3082e6246a881c57fdc4ee457a2f51a634e7da10db11a9a5607a7dc61744da33
+SHA512: d4730388f1f1d4c0b846cc044a2df6184f4eaa7313ecdb3ebe9e809740e7184767d7d7b4bef7273e6e179c3d370fdf12b827cfbfa58e3b4f3b20845d9d95bcfc
+Description: 适合iOS17(Bootstrap)的超级控制中心模块集合！
+Name: CCLess++(Bootstrap)
+Author: 妖刀
+
+Package: com.dumpapp.wechat-rootless
+Architecture: iphoneos-arm64e
+Version: 2.5.2
+Section: Tweaks
+Maintainer: WeChat
+Installed-Size: 14900
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 12.0)
+Filename: debs/com.dumpapp.wechat-rootless_2.5.2_iphoneos-arm64e.deb
+Size: 16971700
+MD5sum: fa92b6a19537dd48039c34b1fb231020
+SHA1: b847ec68bf1d548a17072e1ae8c0a2fbd3f0cdd7
+SHA256: 8f32d0ad66da7b9e83de793cdfbe3818e71b2c4778a35e08ccb34c8a80656782
+SHA512: 8c20dd1ca4e4d3d618ee97b5e737fb1d3069e244422c133901d5f4173688f3dce9bc89ab9df1d857810aa29a37dd215c44061cad6105139cd831d6e3125ee291
+Description: 锤子助手插件
+Name: 锤子助手-Rootless
+Author: DumpApp
 
 Package: com.hang.squidgesturepro-ios17fix
 Architecture: iphoneos-arm64e
@@ -367,6 +440,24 @@ Description: iOS 14-17 自定义来去电背景插件
 Name: 自定义来去电背景
 Author: iosdump
 icon: https://huayuarc.github.io/icon/CustomCallBg.png
+
+Package: com.iosdump.trollcmtweak
+Architecture: iphoneos-arm64e
+Version: 1.1.8
+Section: Tweaks
+Maintainer: iosdump
+Installed-Size: 476
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/com.iosdump.trollcmtweak_1.1.8_iphoneos-arm64e.deb
+Size: 71336
+MD5sum: ec87f356f58af31a9e6e60cb51f54811
+SHA1: 9056d2f17d049bdfedc541d527ee4bdd47befa83
+SHA256: 69958deffe1d9b4cffb2fb176fc34a965c5a94a0cb918dcd311c9a2348847839
+SHA512: 066b6613a5f24f9e7f1587a4db5a96ab8e73e1c7b7c132cc0d27e7dc48144128958eda476ad44ed99c4b7bbefa199acd6f805cbbbfa70640ce1079aae4959b65
+Description: 显示屏幕触摸轨迹，支持iOS14-17所有越狱
+Name: TrollCM 触摸轨迹
+Author: iosdump
+icon: https://huayuarc.github.io/icon/TrollCM.png
 
 Package: com.opa334.ccsupport
 Architecture: iphoneos-arm64e
