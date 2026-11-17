@@ -1272,6 +1272,23 @@ Description: 去广告
 Name: 掌心智校去广告
 Author: wkk
 
+Package: com.xuuz.cadvip
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: Tweaks
+Maintainer: XUUᶻ
+Installed-Size: 204
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.xuuz.cadvip_0.0.3_iphoneos-arm64.deb
+Size: 18008
+MD5sum: d53558d2437ecc6383fe7ad3f5127a11
+SHA1: d8e55e9f2b869118d6afec04f6e2ea3912bdc959
+SHA256: 021fa1c070a21ccc3e96fb3ed61884f90d41a9074f9a5d28e8842f0a12fc6724
+SHA512: 08701d74f0e3073ae45aa4d439b1d67b3f4a5693195a876349ccab4be058d35b37a7ab63adb4b9a727f6e4b7f4346b628352dc83ce2bbbc94bb6b2143a4986ab
+Description:
+Name: CAD快速看图解锁永久VIP
+Author: XUUᶻ
+
 Package: jp.dcsyhi.airaw
 Architecture: iphoneos-arm64
 Version: 1.7.1
@@ -1291,4 +1308,41 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 Name: Airaw
 Icon: https://img.chariz.cloud/icon/airaw/icon@3x.png
 Depiction: https://chariz.com/buy/airaw
+
+Package: com.zengniu.splitview
+Architecture: iphoneos-arm64e
+Version: 0.7.130-1
+Section: Tweaks
+Maintainer: ZengNiu
+Installed-Size: 1435
+Depends: firmware (>= 16.0), mobilesubstrate, preferenceloader
+Filename: debs/zengniu-splitview-0.7.130-unlocked.deb
+Size: 394056
+MD5sum: fe1f94402bc1576a0217f9fc16107c61
+SHA1: 3ab7eca6cd22ae7e3a2e79598d156a19cbe5ce41
+SHA256: 365c935331b0d9f8ac1eda5e53057a5247c8ef2ddbe682fa107b8c1659b0002d
+SHA512: 0da3d39d635e87e4574d2ae16f6f66729c4d5ee9ebc4e183787f7fe4228d942ea62db2b0a9a23e8243846fce365622dcc63bcf642a1fa5b9a48074422d4f726b
+Description: 让 App 以小窗呈现，在主分屏、实时空挂、悬浮图标与底部下探卡片之间切换。主分屏可直接操作 App，并支持移动、等比缩放和旋转。激活码 当前时间+10分钟 Experimental live app windows with Home Screen icon gestures and basic docking.
+Name: 曾牛-分屏🐮
+Icon: https://ys8smjzty4-dot.github.io/ZengNiupackages/depictions/com.zengniu.splitview/icon.png
+Author: ZengNiu
+
+Package: zhuti.iosios.net.baoshijie
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: 字体素材
+Maintainer: 百度主题源
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: com.spark.snowboard, com.spark.snowboard.fonts
+Filename: debs/zhuti.iosios.net.baoshijie_1.0_iphoneos-arm64e.deb
+Size: 36564238
+MD5sum: 5a460f9b4d516e71c962bce5e897ea5d
+SHA1: 56c9d880b0c4203e051a7b21b13e80ce9b4fe6a6
+SHA256: 0f050ced27f63fdc2d18e67ffb6e65a9462879e8579289e016a31da96fb81a7b
+SHA512: b3f1adbd6269c4067461c4589dc1ca8b8bbac98967edef570784cdb1b3c6ad1ef102d2906e417c9a7c9ce18c95f72e352e026355ad017a29f6cbeab589beeedd
+Description: 求捐赠，服务器没流量啦！一种非常好看的保时捷字体，非常的经典，锁屏字体也换了！很好看！本字体插件需要滑雪板来生效，非常的简单，对小白来说十分容易，下载本源字体插件后，请去系统设置-Snowboard里选择启用字体，然后注销就可以了，非常简单！主题源下载流量比较大，服务器成本高，有能力的朋友，希望能够捐赠一下，万分感谢！
+Name: 保时捷字体
+Author: 百度主题源
+Sponsor: 百度主题源
+Icon: https://chinesebuilding.club/pic/zt.png
 
