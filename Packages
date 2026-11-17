@@ -40,6 +40,26 @@ Name: Rain 通话录音
 Author: Rain
 icon: https://huayuarc.github.io/icon/raincall.png
 
+Package: byg.iosios.net.baidunetdiskoutput-rootless
+Architecture: iphoneos-arm64e
+Version: 1.5.5
+Section: 软件破解
+Maintainer: 搬运工
+Installed-Size: 92
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 14.0)
+Filename: debs/byg.iosios.net.baidunetdiskoutput-rootless_1.5.5_iphoneos-arm64e.deb
+Size: 14818
+MD5sum: dc6933c7d7b6ee4752867fa293cd5932
+SHA1: 0b8dd52011d79fb2bd7d2e7366fb958c63b8c099
+SHA256: 0190ecfb277bc730dbb0cfa1f59fcdc27c29ceb92521c59ae6bf0c7ba3fee9c8
+SHA512: 1d6951a352669d42f2a6906c3c35515ce7377abe4fba5ea89d334244226a46c06e3bf55cc9ac63661a3b7d8bdc961fb1bbfe1af81d5aa3d6a6789b84f40f9272
+Description: 百度网盘去除开屏广告，并增加缓存文件添加导出按钮，免去每次进入路径寻找文件的繁琐方式。感谢网友ylr制作分享！
+Name: 百度网盘去开屏及文件导出
+Author: ylr
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.ikeywi4
 Architecture: iphoneos-arm64e
 Version: 4.2.1
@@ -78,6 +98,27 @@ Name: 微信助手
 Author: Mao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64e
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64e.deb
+Size: 4016498
+MD5sum: bafebb2bd943077dad6fe54dbfd5c7ed
+SHA1: a928ed047edaa35ed35105da7addfb00ecd4f555
+SHA256: f06ec9966ae014bb6450953b9a5fcd56602c5f280c2f6b5912435baa8deaa0bf
+SHA512: 443a9d5a688fbf72a2e78a88a5cb9c0c197cbb344f2c40d622295d34489397657f2785a4fceb69dcabf078a91e8b52a385e9a611d93e018016d31bf63e04d38b
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+icon: https://huayuarc.github.io/icon/SquidExtender@2x.png
 
 Package: cn.octoforce.squidgesturepro
 Architecture: iphoneos-arm64
