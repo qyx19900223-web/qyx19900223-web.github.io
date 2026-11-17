@@ -100,6 +100,25 @@ Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: cn.octoforce.squidextender
+Architecture: iphoneos-arm64
+Version: 3.7.4
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 9988
+Depends: mobilesubstrate, preferenceloader, com.opa334.libsandy
+Conflicts: com.squidforce.squidextender
+Filename: debs/cn.octoforce.squidextender_3.7.4_iphoneos-arm64.deb
+Size: 2285264
+MD5sum: c221fff63e0da2f5f1bcb13ceaf5ff08
+SHA1: cadc9571737befc2d31f263a6369c2c0d2e5ca36
+SHA256: ab4654bb32b7d36b8fa8a4fe0285b351c918dff2f90b9f9e8f94289b8e1bcb49
+SHA512: 438e67d7dd2600c4f2fbb973eb0ec5bd2ada72a1fcd3383708a639d69e39ba86261a333d20c00f80deec88c56fa164b9622743b65c9f878388950c7db5873b35
+Description: 激活码用户或需要激活码的用户安装这个，非激活码用户不要安装！！Do not install if you do not have an activation code!!! Extend your keyboard to be more POWERFULL!
+Name: SquidExtender(激活码版)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidextender/depiction.json
+
+Package: cn.octoforce.squidextender
 Architecture: iphoneos-arm64e
 Version: 3.7.4
 Section: Tweaks
