@@ -185,6 +185,28 @@ Name: Rain 通话录音
 Author: Rain
 icon: https://huayuarc.github.io/icon/raincall.png
 
+Package: com.sensetechlab.duodash
+Architecture: iphoneos-arm64
+Version: 1.1.6
+Section: Tweaks
+Maintainer: SenseTechLab Co., Ltd <sensetechlabshark@gmail.com>
+Installed-Size: 7914
+Depends: mobilesubstrate (>= 0.9.5000) | ellekit, firmware (>= 14.0), preferenceloader
+Conflicts: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge, com.sensetechlab.truedash, com.sensetechlab.truedash.rescuer
+Replaces: com.carnav.hud, com.carnav.core, com.carnav.bridge, com.carnav.hook, com.carnav.hud.prefs, com.carnav.prefs.refresh, com.carnav.hud.carplaydashboard, com.carnav.hud.appbridge, com.sensetechlab.carsleeper, com.sensetechlab.carplaytweak, com.sensetechlab.core, com.sensetechlab.bridge, com.sensetechlab.prefs.refresh, com.sensetechlab.duodash.prefs, com.sensetechlab.duodash.appbridge, com.sensetechlab.truedash, com.sensetechlab.truedash.rescuer
+Filename: debs/com.sensetechlab.duodash_1.1.6_iphoneos-arm64.deb
+Size: 1608060
+MD5sum: 56250a56ae3c6cba22927f9bea986bd8
+SHA1: 20fda64eab7c08f4120c724c005e05b3a2e9da59
+SHA256: e94946ee6273ec7b675effb7c58801456bc6137f12620a91c1dd403c8168a4bc
+SHA512: 7705867045a86c3cdce4ff9ebe85d0f9432044354b88ca8441b11f51128dceaf44ee0fcb2932b5c7d37c63f078affb4b93ee8cfda345a007c148152733d13b0e
+Description: Two apps side by side on the CarPlay screen Runs apps that have no CarPlay support of their own on the car screen as live, interactive scenes - two at once, side by side, at a split you drag to any ratio. Configure it in Settings > DuoDash.
+Tag: cydia::commercial, compatible_min::ios14.0
+Author: SenseTechLab Co., Ltd <sensetechlabshark@gmail.com>
+Name: DuoDash
+Icon: https://img.chariz.cloud/icon/duodash/icon@3x.png
+Depiction: https://chariz.com/buy/duodash
+
 Package: com.wkk.palmschoolnoads
 Architecture: iphoneos-arm64
 Version: 1.0.0
