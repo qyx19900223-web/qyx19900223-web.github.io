@@ -78,6 +78,26 @@ Name: SquidGesturePro(激活码)
 Author: SquidForce, Backup
 SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
 
+Package: cn.octoforce.squidgesturepro
+Architecture: iphoneos-arm64e
+Version: 2.7.6-1
+Section: Tweaks
+Maintainer: SquidForce, Backup
+Installed-Size: 6668
+Depends: mobilesubstrate, preferenceloader, firmware (>= 14.0)
+Conflicts: com.lclrc.squidgesture, com.lclrc.squidgesturepro
+Filename: debs/cn.octoforce.squidgesturepro_2.7.6-1_iphoneos-arm64e.deb
+Size: 3016244
+MD5sum: 3f52723bb6d7191e04681d558a5e05e4
+SHA1: 9f0fc11f76727727fb5aef5055feb855c6c801e4
+SHA256: 769ab71ef5d6a6546811fcb2a95fe09b9ed14fff5f75c89b24046bd2abf1fb67
+SHA512: 2121295ba2a75d39149efc34efc2532886860f1172d127b5e0cb5874e16be05f47320db23b9b54ae322b5c4ef7ff4597a83f35f71f59049d33f9dac4de6fe7dc
+Description: Gestures，激活码用户或需要激活码的用户安装此包，非激活码用户不要装!
+Name: SquidGesturePro(激活码)
+Author: SquidForce, Backup
+SileoDepiction: https://lclrc.github.io/repo/depictions/native/cn.octoforce.squidgesturepro/depiction.json
+icon: https://huayuarc.github.io/icon/squidgesturepro.jpg
+
 Package: com.25mao.wcplugins.rootlesss
 Architecture: iphoneos-arm64e
 Version: 0.1-7
@@ -104,6 +124,27 @@ Author: Mao
 Sponsor: admin@25mao.com
 icon: https://TrollStoreX.Github.io/sileodepiction/wcplugins/icon.png
 SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/wcplugins/js.json
+
+Package: com.amywhile.aemulo
+Architecture: iphoneos-arm64e
+Version: 2.0-dd2a2db
+Section: Tweaks
+Maintainer: Amy While <support@anamy.gay>
+Installed-Size: 1968
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 14.0)
+Filename: debs/com.amywhile.aemulo_2.0-dd2a2db_iphoneos-arm64e.deb
+Size: 1571512
+MD5sum: 8d22342f43803f29f97b91abe3e8e9be
+SHA1: 30f18fdd4edff2e9401b0f90e6073bf5d854ed0a
+SHA256: 92a23f74a5563ddb8e951a3f3f2f13af2f315d58a8e42402a6ed349ba61fcb37
+SHA512: 063d3a5c86911aa4c0dfec5925faae40ddd0bc65eba49261a240c31431289ccf2d9c2ba325eb7900bdd138b87f19272c2b972945475119ef91943307d9be012a
+Description: NFC Frickery
+Name: Aemulo
+Author: Amy While <support@anamy.gay>
+Icon: https://elihwyma.github.io/Aemulo/assets/Icon.png
+Header: https://elihwyma.github.io/Aemulo/assets/Depiction-Header.png
+Native-Depiction: https://elihwyma.github.io/Aemulo/NativeDepiction.json
 
 Package: com.be-huge.insulation
 Architecture: iphoneos-arm64e
