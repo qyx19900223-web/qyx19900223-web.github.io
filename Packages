@@ -1272,3 +1272,23 @@ Description: 去广告
 Name: 掌心智校去广告
 Author: wkk
 
+Package: jp.dcsyhi.airaw
+Architecture: iphoneos-arm64
+Version: 1.7.1
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 12029
+Depends: mobilesubstrate, preferenceloader, firmware (>=14.0), com.opa334.ccsupport
+Filename: debs/jp.dcsyhi.airaw_1.7.1_iphoneos-arm64.deb
+Size: 8499310
+MD5sum: a4e7476a0b4e7e37a26f2ead3c559546
+SHA1: b6a22825401594bbf06e895cc7eae53ecc790192
+SHA256: 22c5e4c52488267c276b78c52d5e292af8417fb6c92addebb37b83f7c81e3716
+SHA512: 207956b36e965c9e0e9d7faa2d17e04eae6afb2a7dab7d544ed191ff129a79c5430079ed743513bb4a146bc8a82c8d9fd230223e9e8b065fb55ac9496b4bce41
+Description: An awesome CarPlay tweak.
+Tag: cydia::commercial, compatible_min::ios14.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw
+Icon: https://img.chariz.cloud/icon/airaw/icon@3x.png
+Depiction: https://chariz.com/buy/airaw
+
