@@ -40,6 +40,24 @@ Name: Rain 通话录音
 Author: Rain
 icon: https://huayuarc.github.io/icon/raincall.png
 
+Package: com.sugiuta.sumusicwidget
+Architecture: iphoneos-arm64e
+Version: 1.1.1
+Section: Addons
+Maintainer: sugiuta
+Installed-Size: 280
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/SUMusicWidget-transparent-1.1.1.deb
+Size: 30608
+MD5sum: cda5d89e9fbc97c8e7fecc266714ef8b
+SHA1: 5a51a30061603f55e5eaa27ca0f68220f58d7df2
+SHA256: 3775733de34f01c22633a8c0cb3925d79c86aad28809e0f6cedfc623364c5cbb
+SHA512: 160b91638909e825a3de0ea17603683d4fc702c23d3ce6a509007b10b039153bffc4431eb50786e89100bc1e5a563b79d0c768ce553373c71662a210ede63056
+Description: SUMusicWidget (transparent background build - frosted blur layer removed)
+Name: SUMusicWidget
+Author: sugiuta
+
 Package: byg.iosios.net.baidunetdiskoutput-rootless
 Architecture: iphoneos-arm64e
 Version: 1.5.5
@@ -385,23 +403,6 @@ Description: AI对话、AI聊天分析、AI朋友圈分析、AI图像生成、AI
 Name: PKC_无根
 Author: Curtin
 Icon: https://raw.githubusercontent.com/curtinlv/PKCUpdateLog/main/img/pkc_4_135x135.png
-
-Package: com.custom.weatherwidget
-Architecture: iphoneos-arm64
-Version: 0.1.0-9+debug
-Section: Tweaks
-Maintainer: Custom
-Installed-Size: 184
-Depends: firmware (>= 14.0)
-Filename: debs/com.custom.weatherwidget_0.1.0-9_debug_iphoneos-arm64.deb
-Size: 16876
-MD5sum: 9223f424635f635c3d7bb6aa71f8c080
-SHA1: 5e9f3b05ae67e365e0da31c63dae494d929af14a
-SHA256: df9400025406bd58736179e651c9c44b48b03f7f0d267832b0e5593a0d86091f
-SHA512: dbf808eb8f7977d3fd28483133afa73f6bfe646ccab645f15c6f326644da65adfa1b3d6216c1f32592c96510ae725e71730186212b47ab19a8d0714ede3f4845
-Description: Airaw Controls weather widget source build
-Name: WeatherWidget
-Author: Custom
 
 Package: com.cydia.love.ytlite-rootless
 Architecture: iphoneos-arm64e
@@ -1854,6 +1855,48 @@ Tag: role::developer
 Name: Orion (iOS 14-17)
 Author: Theos Team <theos@kabiroberai.com>
 
+Package: jp.dcsyhi.airaw.splitnative
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 442
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), jp.dcsyhi.airaw (>= 1.7.0)
+Filename: debs/jp.dcsyhi.airaw.splitnative_1.0_iphoneos-arm64e.deb
+Size: 39464
+MD5sum: e20f4b44ad67ee85970f5429dfa0cb71
+SHA1: 5ee8bef4c745df92b25c48fa205499a54873441b
+SHA256: 9730599b80aa2d30023b26202d170426597274661425b0d6ab1d17ec87eb72c8
+SHA512: b0f4a1b56236f47bfb99cd147ff625d6a38c47c77c5066ab818a2ac0214778be6579b1a6ad55d9dfb3b88b5b43641e80a2bdf6f909de1041c54ab12765fe3326
+Description: Split View for native CarPlay apps (Maps, Music, …). Requires Airaw and iOS 16+. Settings open from Airaw only.
+Tag: cydia::commercial, compatible_min::ios16.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw Split View Native
+Icon: https://img.chariz.cloud/icon/airaw-native/icon@3x.png
+Depiction: https://chariz.com/buy/airaw-native
+
+Package: jp.dcsyhi.airaw.splitstandard
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 408
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, firmware (>= 16.0), jp.dcsyhi.airaw (>= 1.7.0)
+Filename: debs/jp.dcsyhi.airaw.splitstandard_1.0_iphoneos-arm64e.deb
+Size: 29642
+MD5sum: 8786c6408628e90052db433d483fc5d5
+SHA1: f31891773cd458bd04a7d40e8e31c04adb29d52e
+SHA256: c7f7d2f562a22b9cd62260119cb9b73c15d263e4fe344fd0af4009e6d19bf149
+SHA512: 3b1b7b2bd9ce0817862c302701b2846d6ef0ac510aa51dce9d5b79d17735b5ea850e374bec89b5250d87121f17c0e1a0cf214962eabe5740a73e745bd837a2f2
+Description: Split View for non-native CarPlay apps (CarCast / CarBridge). Requires Airaw and iOS 16+. Settings open from Airaw only.
+Tag: cydia::commercial, compatible_min::ios16.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: Airaw Split View Standard
+Icon: https://img.chariz.cloud/icon/airaw-standard/icon@3x.png
+Depiction: https://chariz.com/buy/airaw-standard
+
 Package: jp.dcsyhi.airaw
 Architecture: iphoneos-arm64
 Version: 1.7.1
@@ -1873,6 +1916,351 @@ Author: Dcsyhi <dcsyhi1998@gmail.com>
 Name: Airaw
 Icon: https://img.chariz.cloud/icon/airaw/icon@3x.png
 Depiction: https://chariz.com/buy/airaw
+
+Package: jp.dcsyhi.carcast
+Architecture: iphoneos-arm64e
+Version: 1.2
+Section: Tweaks
+Maintainer: Dcsyhi <dcsyhi1998@gmail.com>
+Installed-Size: 2359
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: mobilesubstrate, preferenceloader, firmware (>= 17.0), jp.dcsyhi.airaw (>= 1.7.0)
+Conflicts: com.leftyfl1p.carbridge13
+Filename: debs/jp.dcsyhi.carcast_1.2_iphoneos-arm64e.deb
+Size: 3500720
+MD5sum: 8f653a62dd70ffbe9eb09c12738b685c
+SHA1: fd710a0b84310882b1429ce40d3102d4dd54ea02
+SHA256: 00a99043034f00c25e0d61f43940b451628afc272de4e63ee43a5f1eecd751ed
+SHA512: d20fcef35da2231da49fe63264b25eece4464e776599c4396d6e6ab300cc20160112823a20a4632765dbaabda78330d9f78d86229d3df9ec2524e114ee7c8131
+Description: Pin non-CarPlay apps to the CarPlay dashboard. Requires Airaw. Tested on iOS 17, iOS 18, and iOS 26.
+Tag: cydia::commercial, compatible_min::ios17.0
+Author: Dcsyhi <dcsyhi1998@gmail.com>
+Name: CarCast
+Icon: https://img.chariz.cloud/icon/carcast/icon@3x.png
+Depiction: https://chariz.com/buy/carcast
+
+Package: jp.dcsyhi.carglyph
+Architecture: iphoneos-arm64e
+Version: 1.0.0
+Section: Tweaks
+Maintainer: Dcsyhi
+Installed-Size: 884
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 17.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: debs/jp.dcsyhi.carglyph_1.0.0_iphoneos-arm64e.deb
+Size: 825488
+MD5sum: d17c50a3a52a94cc1976868e5e9bbe2e
+SHA1: a0eb17b3e4f068b302197bee91e131519b39a3f7
+SHA256: 0c6f9c870acead2234b8bc865011719a2f14cd7349482499afbcdced6b744f12
+SHA512: b37cee0ebd3357dc5582b9747577f3343f8ca3e28127ae441767c7f2b76c43a584f337237fb90a99d759c06c45644d0c13a73f401068458451d6e58becd8a525
+Description: Apply IconBundles themes to CarPlay home and dock icons.
+Name: CarGlyph
+Depiction: https://dcsyhi1998.github.io/depiction/CarGlyph.html
+Sileodepiction: https://dcsyhi1998.github.io/Sileodepiction/CarGlyph.json
+Author: Dcsyhi
+Icon: https://dcsyhi1998.github.io/icons/CarGlyph/CarGlyph.png
+
+Package: jp.soh.reprovisions
+Architecture: iphoneos-arm64e
+Version: 1.1.164
+Priority: optional
+Section: Utilities
+Maintainer: AmorCool <admin@reprovision.dev>
+Depends: firmware (>= 15.0), zip, unzip
+Conflicts: jp.soh.reprovision
+Filename: debs/jp.soh.reprovisions_1.1.164_iphoneos-arm64e.deb
+Size: 5528114
+MD5sum: a09527b0652cadf2daeb517f08886e29
+SHA1: 3dfb6c4e3a337e87fc33516a416f5c728ce60f35
+SHA256: 2e7f04da7bf47e989b9abba86094d02225a2f82db89e3d0431dcd0d533c2c26c
+SHA512: 0d523f56766ac154fe497176ea987790d2236d6b2eeb58f93de6ccdc283a8b5849d8b27e6c309e2dd6e6f749303d52b87841a325c9e33f9a629cae598c03fe46
+Description: 使用 苹果 ID 续签 IPA
+ * 仅支持 iOS 17 Relaxin 越狱
+ * 解决非巨魔设备签名 Relaxin IPA 问题
+ * Re-signing tool for iOS jailbreak
+Name: ReSign 苹果 ID 续签
+Author: Coolapk@Analytics
+Icon: https://TrollStoreX.Github.io/sileodepiction/ReSign/icon.png
+SileoDepiction: https://TrollStoreX.Github.io/sileodepiction/ReSign/js.json
+
+Package: me.lau.atria
+Architecture: iphoneos-arm64e
+Version: 1.4.1-11
+Section: Tweaks
+Maintainer: ren7995
+Installed-Size: 1008
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader
+Conflicts: com.irepo.boxy4, me.kritanta.homepluspro, acreson.rootless.cj.atria
+Filename: debs/me.lau.atria_1.4.1-11_iphoneos-arm64e.deb
+Size: 273494
+MD5sum: c0edd386a2a329ae29a0ff4b1fd8c47b
+SHA1: 77d82c9314870e5d3b450c517b705ff6dd6191dc
+SHA256: 5be21fee10a76a8516e8a1fc5613b91392c8c2bc213c88ad9e9efbff8105aa85
+SHA512: f3570b294046ebf242081e3d3a1df03837e096cc5f66b95f8596c63b49e7029820444a9a33b00037e8e6c72e20d41203af030efec7b4725b2aa2bb9f2615ba6e
+Description: iOS 13-16 自定义桌面图标布局，可以修改5x5布局，移除APP名称显示！美化桌面，[1.4.1-11: 二进制补丁版,在原版 dylib 上最小化修补,修复 iOS17 待机模式(StandBy)崩溃;不重编译,规避 1.4.1-9/10 无法加载/开机卡死的问题]
+Name: Atria
+Author: ren7995
+Sponsor: ren7995
+icon: https://huayuarc.github.io/icon/Atria.png
+
+Package: me.liuming.apphider
+Architecture: iphoneos-arm64e
+Version: 2.3.0
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 7034
+Pre-Depends: rootless-compat(>= 0.9)
+Depends: firmware (>= 6.0), mobilesubstrate
+Filename: debs/me.liuming.apphider_2.3.0_iphoneos-arm64e.deb
+Size: 5806874
+MD5sum: 1bcbe8387318316f8cf046de80283408
+SHA1: 8407c37e004896de228886d4698c6cd9d1d81a7d
+SHA256: f3f1529319d740abece490e7100f19dd08a21236ec1d445b62685b29c5b809cb
+SHA512: 648aac51c37ef5120d9ca38faa482ad8d52bed9294169fb9d9fd679e543da6bae9a070d953ffe4169447e791e611abf2a779e00836407ecd24d0e163b3f7f71c
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=apphiderDp
+Description: Hide your Apps from SpringBoard
+    App Hider can hide your Apps from SpringBoard like the Apps are disappeared from your iPhone. So you can hide the Apps which you don't want to let others know. Hiding the Cydia, just like your iOS device is not jailbroken. Hiding the Facebook, instagram, Twitter, so that no one knows. GuestMode can be set by using group feature. App隐藏助手，能够隐藏(屏蔽、隐身)你的应用，使得他人并不知道你安装的应用，从而保护你的隐私。通过分组功能，能够实现访客模式（来宾模式）。アプリケーションを隠す. ANWENDUNG ausblenden. 응용 프로그램 숨기기.
+Tag: purpose::extension, role::enduser
+Author: liuming <liuminggui1993@163.com>
+Name: App Hider(应用隐藏助手)-Make Apps disappeared from SpringBoard
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=apphiderDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: liuming
+Icon: file:///Applications/AppHider.app/AppIcon29x29@2x.png
+
+Package: net.limneos.simpleactivationactions-roothide
+Architecture: iphoneos-arm64e
+Version: 0.1-1
+Section: Tweaks
+Maintainer: Elias Limneos <limneoselias@gmail.com>
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: debs/net.limneos.simpleactivationactions-roothide_0.1-1_iphoneos-arm64e.deb
+Size: 8262
+MD5sum: 368f17542b10148c86d4d1323a71159d
+SHA1: a57b906573b6ed8404ec4c1d1417504079acdac6
+SHA256: a58c1f9c35e5a6225feaf6f121efca3a7b582b50927ba968f8ee97c0f6491888
+SHA512: 1f7180b2812a43dd6663732018d2ce45579de30603cf9a9c2b9e34e73193a53f5c6fe30d069ac5a738dd3642ef71cecda1354099a041dbaac35ed93203d8fa88
+Description: Simple Activation Actions
+ Handles StatusBar actions for simple activation events
+Name: SimpleActivationActions (roothide)
+Author: Elias Limneos <limneoselias@gmail.com>
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64e
+Version: 2.5.1-13
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/org.coolstar.sileo_2.5.1-13_iphoneos-arm64e.deb
+Size: 5928600
+MD5sum: d71addc2c7ce469db8b45cd9599b2690
+SHA1: 5d18c8e64747451c452fb3b09c511b8a01552b65
+SHA256: 568008b4bf92c86f87a0a556326ae2f27b34b488ad1092981d5cce73cad8b90a
+SHA512: b188911eedea1cd88aa559a7f133c90bc2bfb6146f5abcb6fbefc9a0d7e68675f666662f6ce3f06a31957d48d815ad4eb360aea52c27980a0c8b48dcfcc08e3e
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
+Package: org.thebigboss.libcolorpicker
+Architecture: iphoneos-arm64e
+Version: 1.6.9.2
+Section: System
+Maintainer: Bailey Seymour
+Installed-Size: 304
+Provides: me.nepeta.libcolorpicker, ws.hbang.alderis
+Depends: firmware (>= 6.0)
+Replaces: me.nepeta.libcolorpicker, ws.hbang.alderis
+Filename: debs/org.thebigboss.libcolorpicker_1.6.9.2_iphoneos-arm64e.deb
+Size: 65150
+MD5sum: 131288ec6a51f9a1cd92d4eb1451aeaf
+SHA1: 404bff7e03c96989aebdffafcc0a5a8d5216f560
+SHA256: 5bea40a3b2121030771878a3cee3f37ba100411e28baca778a0d764b53bb1303
+SHA512: 8b53f348be30ecdb1d5cbd8c5d1d2b7e3419eb2f2e2e4596910156879ca7250b92092a9d93567994bfd00c37b4141c27f748026158d8e18e1a3e2acff6195502
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: libcolorpicker
+Author: Bailey Seymour
+
+Package: preferenceloader
+Architecture: iphoneos-arm64e
+Version: 2.2.8
+Section: System
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: debs/preferenceloader_2.2.8_iphoneos-arm64e.deb
+Size: 20684
+MD5sum: c3bc6ec190fd050e7ec5fb642fa206e4
+SHA1: 8365c3095bb285b5bd2c66c457424114e081bdb2
+SHA256: 95978db78320c01804d6f67cd94f4569ade6dbfbef086eb36d8d10941ef170be
+SHA512: 731770ecd0015f6846b0371c8837e8bed793385cc372c7941c96a58a54759714327d3c505f393e5912f31d909f3b849b3ad54f260337fb9cd5a52d42c3ef8b1d
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader
+
+Package: roothide.patches.filza
+Architecture: iphoneos-arm64e
+Version: 0.5-4
+Section: RootHide Patches
+Maintainer: roothide
+Installed-Size: 268
+Provides: patches-com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Depends: com.roothide.patchloader
+Recommends: com.tigisoftware.filza64bit (= 4.0.1-4~roothide)
+Conflicts: com.tigisoftware.filza64bit (>> 4.0.1-4~roothide), com.tigisoftware.filza64bit (<< 4.0.1-4~roothide)
+Filename: debs/roothide.patches.filza_0.5-4_iphoneos-arm64e.deb
+Size: 43738
+MD5sum: 57c43279f77a3981647a0669bd55f16c
+SHA1: 1df39e3327b1fb4ca32bbb91ac7b826564159e84
+SHA256: 003c7c3dd98b017c33d1c257cddc4a506bb7b66cdcd235a680164d9c38b3119f
+SHA512: 0804b14e6afc66890fa772f7e63a48b2872a67360ae879b1195499eff3c96823e9e4f2766d918da5bd0a2ac24533d00ab503644c12f1209be556f39105c7b04d
+Description: RootHide Dynamic Patches For Filza
+Name: Patches for Filza 64bit
+Author: roothide
+
+Package: roothide
+Architecture: iphoneos-arm64e
+Version: 0.1.0
+Priority: required
+Essential: yes
+Section: System
+Maintainer: roothide
+Installed-Size: 936
+Filename: debs/roothide_0.1.0_iphoneos-arm64e.deb
+Size: 56656
+MD5sum: 11fa698e2d942c08b9758c7283429555
+SHA1: 298f6ae6ec6a09d4b72431e573f58bd89078fadd
+SHA256: 53ebead2e37d5c896be33eebeaa4e44fa69d523b416718b081baa08f1bcfb040
+SHA512: 8cd727e982a98f31b9bff1792da514d91592724243690a5c6d8b17485534078b23d41152106520991b9f2a21faec4757cfb52bb6334f324e163bad2a3c36c791
+Description: roothide core package
+Name: roothide core
+Author: roothide
+
+Package: rootless-compat
+Architecture: iphoneos-arm64e
+Version: 2.0
+Section: RootHide Patches
+Maintainer: roothide
+Installed-Size: 284
+Depends: com.roothide.patchloader (>= 0.0.4)
+Filename: debs/rootless-compat_2.0_iphoneos-arm64e.deb
+Size: 55246
+MD5sum: d7efcac35d60e4634cfc439a61f1025a
+SHA1: 90a56759a26e749fb67556bd730b36460c0779a9
+SHA256: e8826cde927f62e032170e1ca23e61280a2f4d32fd79e8c9d94a6a1bd8bcaf5c
+SHA512: 045a7e9d199f0fd3bf05dd739d1b4fa76d2b05e0058b34ce24401da074e7ef363fade7744c37bbd5acb4d793af32e8a36c727c8345a6b393718a6b26a8315db7
+Description: Compat Layer for Rootless Tweaks
+Name: rootless-compat
+Author: roothide
+
+Package: wiki.qaq.irisin
+Architecture: iphoneos-arm64e
+Version: 4.7.2
+Priority: optional
+Section: Applications
+Maintainer: OwnGoal Studio <no-reply@owngoal.dev>
+Installed-Size: 17732
+Depends: firmware (>= 15.0)
+Filename: debs/wiki.qaq.irisin_4.7.2_iphoneos-arm64e.deb
+Size: 8359786
+MD5sum: 3147f6bb4651a596ce17eed7a14fd1cc
+SHA1: 86d6234edf3e7390bd659dab54480bb0531f3b89
+SHA256: fa4d532cebc5ee3a6ef92883e73948f617675a8f569cf0a9b77f0c7813a7666c
+SHA512: 26c8982c3118684584458e6d0cded6905770ddef026f3948eaff6dc70f281f0e1f248a912d97e55688dded95aec913b0655e3e4309d82b4d51b486a738e22068
+Homepage: https://github.com/Lakr233/Irisin
+Description: Modern package manager for roothide custom firmware
+ Browse your repositories, install and remove packages, keep tweaks updated
+ and read every depiction, on iPhone and iPad. The app runs without root;
+ installs go through a small on-demand root daemon whose helper installs
+ packages natively and registers apps with LaunchServices itself. No dpkg,
+ no uicache.
+Name: Irisin
+Icon: https://lakr233.github.io/Irisin/icon.png
+Depiction: https://lakr233.github.io/Irisin/
+SileoDepiction: https://lakr233.github.io/Irisin/depiction.json
+Author: OwnGoal Studio <no-reply@owngoal.dev>
+
+Package: wiki.qaq.umbra
+Architecture: iphoneos-arm64e
+Version: 2.1
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 1416
+Depends: firmware (>= 15.0)
+Conflicts: com.roothide.manager
+Replaces: com.roothide.manager
+Filename: debs/wiki.qaq.umbra_2.1_iphoneos-arm64e.deb
+Size: 1022984
+MD5sum: 06e70984aa33b7ffa8271db68a6edb62
+SHA1: b0e3fe94c86f2b21b376cea174cb5cf3ed6fc2ec
+SHA256: 93df4c9a5dd9fa8c9db0d0d624454a2132b26626a6a09c13839312b6a6c78a84
+SHA512: 95c6e7d018407ceef24e9239279fbc06ed67c87f6258ae1ecf19d40eacebf0599cfd982392946d56bbd81f5d11b0719bcc832dac9c8c9acbd950e0edf471bdc5
+Description: Hide custom firmware from apps in RootHide environments.
+Name: Umbra (RootHide Manager)
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: wiki.qaq.umbra
+Architecture: iphoneos-arm64e
+Version: 2.2.3
+Section: Utilities
+Maintainer: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+Installed-Size: 1564
+Depends: firmware (>= 15.0)
+Conflicts: com.roothide.manager
+Replaces: com.roothide.manager
+Filename: debs/wiki.qaq.umbra_2.2.3_iphoneos-arm64e.deb
+Size: 1060678
+MD5sum: 59203a509efdca6b2786518f917a35ca
+SHA1: d3126e3c317235ffd011543bb8d8004466db8755
+SHA256: b3d0c2437eea395843567e723b29757bd84f1b335861f39f11445bc80ba069e2
+SHA512: da63e41ae7d26b0158ad9035787df2458217e2c2d249a18d41900cd268819db486ca7be50a48b85f24eb4e85c32bd8270004205c4af9ad1b25e5e4e81ccff5ca
+Description: Hide custom firmware from apps in RootHide environments.
+Name: Umbra (RootHide Manager)
+Author: OwnGoal Studio <not-gonna-reply@owngoal.dev>
+
+Package: ws.hbang.common
+Architecture: iphoneos-arm64e
+Version: 2.0-29
+Section: Development
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 3132
+Depends: firmware (>= 15.0)
+Filename: debs/ws.hbang.common_2.0-29_iphoneos-arm64e.deb
+Size: 471312
+MD5sum: 84bc6d03464a93885a48b148780483ec
+SHA1: 086226e9420c1247219298155093a1ef287224c4
+SHA256: e817a6c2119da117d384d45f0deed6484a862ab240ea6cf97a5e3863c013c74b
+SHA512: cd92408b8f17591e05db50d2b6d7518f3a0a27b9e53f8911667db45d17fa1f57a5e6dba1fd63624b8e75940a9bd0a8ef076336fd5c698d6353f6973915232dab
+Description: Support library for tweaks
+Tag: role::developer, compatible_min::ios15.0
+Name: Cephei Tweak Support
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://img.chariz.cloud/icon/cephei/icon@3x.png
+Depiction: https://chariz.com/get/cephei
+Support: https://hashbang.productions/support/
+
+Package: xyz.cypwn.apphide
+Architecture: iphoneos-arm64e
+Version: 1.0
+Section: Tweaks
+Maintainer: CyPwn
+Installed-Size: 788
+Pre-Depends: rootless-compat (>= 0.9)
+Depends: firmware (>= 16.0), firmware (<< 17.4), mobilesubstrate, preferenceloader
+Filename: debs/xyz.cypwn.apphide_1.0_iphoneos-arm64e.deb
+Size: 139324
+MD5sum: d555b1d9b1227f8e5e3b6a4017183ce1
+SHA1: 2d304a0a80cbc0d7017003a72beb7b77b871b1f3
+SHA256: 39b57f06436cfd42154b5ad0628ecae3d8311b65e6a79b45f130ceea68a4057b
+SHA512: e87b04daf4cff2243798ea3a57177ee9185dcdfb130424e248c8e31c1881a0597045d9f4f8a586ff357e4598fdf88c545961dd8dd0636f8584a9f6f375aba9b5
+Description: Completely hide and password-protect your apps.完全隐藏和密码保护您的应用程序。
+Name: AppHide
+Author: Jailbreak Tweaker
+icon: https://huayuarc.github.io/icon/AppHideHeaderIcon.png
 
 Package: com.zengniu.splitview
 Architecture: iphoneos-arm64e
